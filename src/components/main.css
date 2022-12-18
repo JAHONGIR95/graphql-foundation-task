@@ -1,0 +1,53 @@
+/* header style */
+.header {
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 40px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #000;
+}
+
+/* table comp */
+table {
+  width: 100%;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+}
+
+tr {
+  width: 100%;
+}
+
+tr:nth-child(even) {
+  background-color: #ccc;
+}
+
+td {
+  text-align: center;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.pagination{
+  margin-top: 20px;
+  display: flex;
+  column-gap: 10px;
+  justify-content: end;
+}
